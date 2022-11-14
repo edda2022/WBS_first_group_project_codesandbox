@@ -1,0 +1,65 @@
+body {
+  font-family: 'Times New Roman', Times, serif';
+}
+h1 {
+  text-align: center;
+}
+
+
+img {
+  width: 150px;
+  height: 150px;
+}
+
+/* nav section */
+
+.navtop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: gray;
+  
+}
+.navtop a {
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+
+}
+
+.navtop div {
+  padding: 5px 100px;
+}
+
+/* main section */
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#hometown {
+  background-color: burlywood;
+}
+#workplace {
+  background-color: gray
+}
+
+#hobbies {
+  background-color: cyan;
+}
+h3 {
+  padding-top: 10px;
+}
+figure {
+  border: solid rgb(45, 45, 214);
+  border-radius: 5px;
+  padding: 10px;
+  
+}
+
+footer {
+  text-align: center;
+  background-color: rgb(182, 179, 179);
+  padding: 2px;
+}
